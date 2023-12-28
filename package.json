@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lintfix": "prettier . --write"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.10.3",
+    "nuxt": "^3.9.0",
+    "prettier": "3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.10",
+    "vue": "^3.3.13",
+    "vue-router": "^4.2.5"
+  }
+}
